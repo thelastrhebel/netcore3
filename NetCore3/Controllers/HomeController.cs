@@ -24,7 +24,7 @@ namespace NetCore3.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "This is Your contact page from the last rhebels fork.";
 
             return View();
         }
